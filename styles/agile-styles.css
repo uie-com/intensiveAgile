@@ -29,6 +29,12 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     $GENERAL
 \*------------------------------------*/
 
+/* TEXT */
+.txt-right-on-desktop {
+    text-align: right;
+}
+
+/* QUOTE TEXT */
 .heading-highlighted {
     font-family: league-gothic, sans-serif;
     font-size: 1.5em;
@@ -43,11 +49,64 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     -webkit-box-decoration-break: clone;
 }
 
-.txt-right-on-desktop {
-    text-align: right;
-}
-
+/* ANCHOR */
 .agile-a {
     color: #d8a739;
     font-weight: bold;
+}
+
+/* BUTTONS */
+.btn-agile .cta {
+    color: var(--white);
+    text-decoration: none;
+}
+
+.btn-agile:hover .cta {
+    color: var(--black);
+}
+
+.btn-yellow .cta {
+    color: var(--black);
+    text-decoration: none;
+}
+
+.btn-yellow:hover .cta {
+    color: var(--black);
+}
+
+.btn-fill-agile {
+    max-width: 100%;
+    display: block;
+}
+/* BOX PRICE */
+.box-pricing {
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.pricing-box .box-content {
+    margin: 2em 0;
+    padding-bottom: 3em;
+    padding-top: 1em;
+}
+
+.box-content p,li {
+    font-size: 1.1rem;
+}
+.pricing-box {
+    position: relative;
+}
+
+.pricing-box .box-head {
+    /* min-height: 106px; */
+}
+
+.pricing-box .btn,.btn-yellow {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 3em;
+    position: absolute;
 }
