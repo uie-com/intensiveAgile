@@ -86,27 +86,31 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     font-weight: bold;
 }
 
+.pricing-box {
+    position: relative;
+}
+
 .pricing-box .box-content {
-    margin: 2em 0;
-    padding-bottom: 3em;
-    padding-top: 1em;
+    margin: 1.5em 0;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    border-top: 1px rgb(192, 189, 192) solid;
+    display: block;
 }
 
 .box-content p,li {
     font-size: 1.1rem;
 }
-.pricing-box {
-    position: relative;
-}
 
 .pricing-box .box-head {
-    /* min-height: 106px; */
+    min-height: 106px;
 }
 
 .pricing-box .btn,.btn-yellow {
+    max-width: 100%;
     bottom: 0;
-    left: 0;
-    right: 0;
-    margin-bottom: 3em;
+    left: .8em;
+    right: .8em;
+    margin-bottom: 2em;
     position: absolute;
 }
