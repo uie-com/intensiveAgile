@@ -254,12 +254,11 @@ FOOTER
 
         .mx-auto {
             margin: 0 auto;
-            /* margin-right: auto; */
         }
 
         .my-auto {
-            margin-top: auto;
-            margin-bottom: auto;
+            margin: auto 0;
+
         }
 
         .mx-1 {
@@ -504,9 +503,6 @@ FOOTER
 .image-right {
     margin-left: auto;
 }
-
-/* @media only screen and (max-width: 54em) {
-} */
 
 @media only screen and (max-width: 54em) {
     .split {

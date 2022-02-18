@@ -78,7 +78,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     max-width: 100%;
     display: block;
 }
-/* BOX PRICE */
+/* PRICING */
 .box-pricing {
     display: block;
     text-align: center;
@@ -113,4 +113,12 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     right: .8em;
     margin-bottom: 2em;
     position: absolute;
+}
+
+/* ORDER */
+
+@media only screen and (max-width: 54em) {
+    .column-reverse {
+        flex-direction: column-reverse;
+    }
 }
