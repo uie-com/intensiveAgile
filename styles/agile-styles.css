@@ -105,7 +105,28 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 .pricing-box .box-head {
     min-height: 106px;
 }
+.pricing-box  ul {
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-image: none;
+    padding-left: 15px;
+    /* list-style-type: "→"; */
+  }
+  .pricing-box  li::marker{
+    color:#c08c11;
+}
+.pricing-box ul li {
+    padding-bottom: 15px;
+}
+.pricing-box li p{
+    position: relative;
+    display: inline;
+    left: -10px;
+  }
 
+.pricing-box .box-head h3{
+    font-size:1.75em;
+}
 .pricing-box .btn,.btn-yellow {
     max-width: 100%;
     bottom: 0;

@@ -425,10 +425,10 @@ FOOTER
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -webkit-box-pack: center;
+    /* -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .align-center {
@@ -634,16 +634,6 @@ li {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.1em;
     line-height: 1.5;
-}
-
-*/ ul,
-ol {
-    /* display: block; */
-    margin-block-start: 0em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 50px;
 }
 
 h1, h2, h3, h4, h5 {
