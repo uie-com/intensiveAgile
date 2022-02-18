@@ -29,10 +29,10 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     $GENERAL
 \*------------------------------------*/
 
-.sec-il img {
+/* .sec-il img {
     max-width: 250px;
     min-width: 150px;
-}
+} */
 
 .heading-highlighted {
     font-family: league-gothic, sans-serif;
