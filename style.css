@@ -253,8 +253,8 @@ FOOTER
 
 
         .mx-auto {
-            margin-left: auto;
-            margin-right: auto;
+            margin: 0 auto;
+            /* margin-right: auto; */
         }
 
         .my-auto {
@@ -428,21 +428,11 @@ FOOTER
     flex-wrap: wrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    /* justify-items: center; */
+    justify-items: center;
     justify-content: center;
-    align-items: center;
 }
 
-.split-space {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    /* justify-items: center; */
-    justify-content: space-between;
+.align-center {
     align-items: center;
 }
 
@@ -498,6 +488,9 @@ FOOTER
     max-width: 20em;
 }
 
+.max-15em {
+    max-width: 15em;
+}
 .max-10em {
     max-width: 10em;
 }
@@ -1034,7 +1027,7 @@ footer img {
 .img-resp {
     width: 100%;
     height: auto;
-    /* display: block; */
+    display: block;
 }
 
 .footer-padding {

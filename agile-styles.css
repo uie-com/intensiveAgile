@@ -36,9 +36,8 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 
 .heading-highlighted {
     font-family: league-gothic, sans-serif;
-    font-size: 40px;
+    font-size: 1.5em;
     letter-spacing: 1px;
-    font-weight: 400;
     background-color: #4e4e4e;
     color: #ffffff;
     display: inline;
