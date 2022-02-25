@@ -107,8 +107,8 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     min-height: 106px;
 }
 .pricing-box  ul {
-    list-style-type: square;
-    list-style-position: inside;
+    /* list-style-type: square; */
+    /* list-style-position: inside; */
     list-style-image: none;
     padding-left: 15px;
     /* list-style-type: "→"; */
@@ -122,7 +122,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 .pricing-box li p{
     position: relative;
     display: inline;
-    left: -10px;
+    /* left: -10px; */
   }
 
 .pricing-box .box-head h3{
