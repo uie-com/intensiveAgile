@@ -155,8 +155,6 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     }
 }
 
-
-
-.black {
-    color: #2c2c2c;
+.indent-bullets {
+    padding-left: 2em;
 }
