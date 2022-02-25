@@ -169,3 +169,14 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     flex-wrap: wrap;
     flex-direction: row;
 }
+
+.newtab-agile {
+    background-color: #FFCD5E;
+    color: black;
+    padding: 5px 8px;
+    font-weight: 600;
+}
+
+.pt-0 {
+    padding-top: 0;
+}
