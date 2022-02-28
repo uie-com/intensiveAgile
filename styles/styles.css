@@ -406,7 +406,7 @@ FOOTER
 \*------------------------------------*/
 .container-cc {
     width: 85%;
-    max-width: 66em;
+    max-width: 58em;
     margin: 0 auto;
 }
 
@@ -632,7 +632,7 @@ FOOTER
 p,
 li {
     font-family: "Source Sans Pro", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 1.1em;
+    font-size: 1.25em;
     line-height: 1.5;
 }
 

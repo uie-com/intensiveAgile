@@ -100,7 +100,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 }
 
 .box-content p,li {
-    font-size: 1.1rem;
+    font-size: 1.25rem;
 }
 
 .pricing-box .box-head {
@@ -126,7 +126,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
   }
 
 .pricing-box .box-head h3{
-    font-size:1.75em;
+    font-size:1.55em;
 }
 .pricing-box .btn,.btn-yellow {
     max-width: 100%;
