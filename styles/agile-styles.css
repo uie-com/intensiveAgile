@@ -113,9 +113,9 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     padding-left: 15px;
     /* list-style-type: "→"; */
   }
-  .pricing-box  li::marker{
+  /* .pricing-box  li::marker{
     color:#c08c11;
-}
+} */
 .pricing-box ul li {
     padding-bottom: 15px;
 }
