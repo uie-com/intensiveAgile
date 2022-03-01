@@ -29,6 +29,8 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     $GENERAL
 \*------------------------------------*/
 
+@import url("https://use.typekit.net/ddo1cgn.css");
+
 /* TEXT */
 .txt-right-on-desktop {
     text-align: right;
@@ -37,7 +39,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 /* QUOTE TEXT */
 .heading-highlighted {
     font-family: league-gothic, sans-serif;
-    font-size: 1.7em;
+    font-size: 1.75em;
     font-weight: bold;
     letter-spacing: 1px;
     background-color: #2c2c2c;
@@ -48,6 +50,7 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
     line-height: 1.45;
     box-decoration-break: clone;
     -webkit-box-decoration-break: clone;
+    font-weight: 400;
 }
 
 /* ANCHOR */
@@ -179,4 +182,27 @@ I'll never try to be smarter with my CSS coding styles than Harry -> https://css
 
 .pt-0 {
     padding-top: 0;
+}
+
+
+
+
+.text-wall p{
+    font-family: league-gothic, sans-serif;
+    font-size: 45px !important;
+    font-weight: 700;
+    text-shadow: none;
+    text-align: center;
+    display: block;
+    color: #212121;
+    line-height: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+#pricing .cta{
+    font-weight: 700;
 }
